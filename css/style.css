@@ -1,0 +1,35 @@
+@import url("./gosp.css");
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.marker-title {
+  font-size: 1em;
+}
+
+main {
+  height: 100%;
+}
+
+.gallery,
+.location {
+  height: 100%;
+}
+
+.gallery {
+    overflow: scroll;
+}
+
+.gallery img {
+    max-width: 100%;
+}
